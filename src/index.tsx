@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 
 
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
