@@ -1,6 +1,7 @@
-import { Botao, Google, DivFundo, HomeDiv, Input, LogoHeader, AlterRotas, Acao } from "./style";
+import { Google, AlterRotas } from "./style";
 import { Link } from "react-router-dom";
-import GoogleLogo from '../../components/devicon_google.svg';
+import GoogleLogo from '../../assets/devicon_google.svg';
+import { HomeDiv, LogoHeader, DivFundo, Acao, Input, Botao } from "../../components/style";
 
 export default function Home() {
     return (

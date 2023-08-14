@@ -1,6 +1,7 @@
-import { Acao, Botao, CheckSenha, DivFundo, HomeDiv, Input, LogoHeader } from './style';
+import { CheckSenha } from './style';
 import { Link } from "react-router-dom";
 import {checarSenha} from './checarSenha';
+import { HomeDiv, LogoHeader, DivFundo, Acao, Input, Botao } from "../../components/style";
 
 
 export default function Cadastro() {
