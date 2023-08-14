@@ -70,7 +70,7 @@ export const ExibeProdutos = styled.div `
     position: relative;
 `;
 
-export const Produtos = styled.div `
+export const ProdutosDiv = styled.div `
     display: flex;
     width: 100%;
     overflow-x: auto;

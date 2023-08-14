@@ -1,5 +1,4 @@
-import { Cabecalho, ExibeProdutos, Lupa, MenuDiv, NomeProduto, Perfil, PesquisaDiv, Produtos, HomeDiv, Input } from './style'
-import { } from '../../components/style'
+import { Cabecalho, Lupa, MenuDiv, NomeProduto, Perfil, PesquisaDiv, HomeDiv, Input, ProdutosDiv } from './style'
 
 
 import IconePerfil from '../../assets/Perfil.svg'
@@ -7,265 +6,10 @@ import IconeLupa from '../../assets/material-symbols_search.svg'
 import IconeCarrinho from '../../assets/icone_carrinho.svg'
 import IconeMenuHamburger from '../../assets/icone_menu_hamburger.svg'
 
-import Computadores from './computadores'
-import Notebooks from './notebooks'
-import Consoles from './consoles'
-import PCIS from './pci'
-import Acessorios from './acesorios'
-import Jogos from './jogos'
 
-function getComputadores() {
-    return (
-        <Produtos>
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
+import Produtos from './produtos'
 
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-
-            <ExibeProdutos>
-                <Computadores />
-            </ExibeProdutos>
-        </Produtos>
-    )
-}
-
-function getNotebooks() {
-    return (
-        <Produtos>
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Notebooks />
-        </ExibeProdutos>
-    </Produtos>
-    )
-}
-
-function getConsoles() {
-    return (
-        <Produtos>
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Consoles />
-                </ExibeProdutos>
-            </Produtos>
-    )
-}
-
-function getPCI() {
-    return (
-        <Produtos>
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <PCIS />
-                </ExibeProdutos>
-            </Produtos>
-    )
-}
-
-function getAcessorios() {
-    return (
-        <Produtos>
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-
-                <ExibeProdutos>
-                    <Acessorios />
-                </ExibeProdutos>
-            </Produtos>
-    )
-}
-
-function getJogos() {
-    return (
-        <Produtos>
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-
-        <ExibeProdutos>
-            <Jogos />
-        </ExibeProdutos>
-    </Produtos>
-    )
-}
-
+const produtos = new Produtos()
 export default function Home() {
     return (
         <HomeDiv>
@@ -281,23 +25,107 @@ export default function Home() {
                 </MenuDiv>
             </Cabecalho>
             <NomeProduto id='Computadores'>Computadores</NomeProduto>
-            {getComputadores()}
+            <ProdutosDiv>
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+                {produtos.getComputadores()}
+            </ProdutosDiv>
+            
 
             <NomeProduto>Notebooks</NomeProduto>
-            {getNotebooks()}
+            <ProdutosDiv>
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                {produtos.getNotebooks()}
+                
+            </ProdutosDiv>
 
 
             <NomeProduto>Consoles</NomeProduto>
-            {getConsoles()}
+            <ProdutosDiv>
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                {produtos.getConsoles()}
+                
+            </ProdutosDiv>
 
             <NomeProduto>PCI's</NomeProduto>
-            {getPCI()}
+            <ProdutosDiv>
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                {produtos.getPCI()}
+                
+            </ProdutosDiv>
 
             <NomeProduto>Acessórios</NomeProduto>
-            {getAcessorios()}
+            <ProdutosDiv>
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                {produtos.getAcessorios()}
+                
+            </ProdutosDiv>
 
             <NomeProduto>Jogos</NomeProduto>
-            {getJogos()}
+            <ProdutosDiv>
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                {produtos.getJogos()}
+                
+            </ProdutosDiv>
         </HomeDiv >
     )
 }
