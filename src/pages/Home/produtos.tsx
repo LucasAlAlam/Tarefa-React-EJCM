@@ -1,4 +1,3 @@
-import { Map } from "typescript"
 import { InfoProduto, ExibeProdutos } from "./style"
 
 import Computadores from '../../assets/computador.png'
