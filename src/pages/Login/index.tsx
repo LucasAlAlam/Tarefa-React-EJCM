@@ -1,5 +1,5 @@
 import { Botao, Google, DivFundo, HomeDiv, Input, LogoHeader, AlterRotas, Acao } from "./style";
-
+import { Link } from "react-router-dom";
 import GoogleLogo from '../../components/devicon_google.svg';
 
 export default function Home() {
@@ -11,10 +11,15 @@ export default function Home() {
                 <Input placeholder="Email" type="Email"/>
                 <Input placeholder="Senha" type="password"/>
                 <AlterRotas>
+                <Link to='/Cadastrar'>
                     <a>Registrar-se</a>
+                </Link>
+                    
                     <a>Esqueceu a senha?</a>
                 </AlterRotas>
-                <Botao>Entrar</Botao>
+                <Link to='/Home'>
+                    <Botao>Entrar</Botao>
+                </Link>
             </DivFundo>
             <Google>
                 <img src={GoogleLogo} alt="Logotipo do google"/>

@@ -1,5 +1,5 @@
 import { Acao, Botao, CheckSenha, DivFundo, HomeDiv, Input, LogoHeader } from './style';
-
+import { Link } from "react-router-dom";
 export default function Cadastro() {
     return (
         <HomeDiv>
@@ -11,7 +11,9 @@ export default function Cadastro() {
                 <Input placeholder='Senha' type='password' id='senha'/>
                 <CheckSenha id='checkpass'>Força da senha: </CheckSenha>
                 <Input placeholder='Confirmar Senha' id='confirmarSenha' type='password'/>
-                <Botao>Cadastrar</Botao>
+                <Link to='/'>
+                    <Botao>Cadastrar</Botao>
+                </Link>
             </DivFundo>
         </HomeDiv>
     )
