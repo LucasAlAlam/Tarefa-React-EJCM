@@ -2,6 +2,13 @@
   font-family: 'Krona One';
   src: local('Krona One'), url(./fonts/KronaOne-Regular.ttf) format('truetype');
 }
+
+*:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
 body {
   margin: 0;
   font-family: Krona One;

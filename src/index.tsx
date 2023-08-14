@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Login from './pages/Login/index';
 import Cadastro from './pages/Cadastro/index'
+import Home from './pages/Home/index'
 
 
 const root = ReactDOM.createRoot(
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Cadastro/>
+    <Home/>
   </React.StrictMode>
 );
 
