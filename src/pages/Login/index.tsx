@@ -11,7 +11,7 @@ export default function Home() {
                 <Input placeholder="Email" type="Email"/>
                 <Input placeholder="Senha" type="password"/>
                 <AlterRotas>
-                <Link to='/Cadastrar'>
+                <Link to='/Cadastro'>
                     <a>Registrar-se</a>
                 </Link>
                     

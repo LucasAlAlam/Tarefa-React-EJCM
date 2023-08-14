@@ -50,8 +50,10 @@ export const Botao = styled.button `
     border: none;
     color: ${global.colors.branco};
     height: 12mm;
-    width: 70%;
+    width: 130%;
     margin: 5mm;
     font-size: 10mm;
     text-align: center;
+    position: relative;
+    right: 52px;
 `;

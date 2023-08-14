@@ -46,10 +46,12 @@ export const Botao = styled.button `
     border: none;
     color: ${global.colors.branco};
     height: 12mm;
-    width: 70%;
+    width: 150%;
     margin: 5mm;
     font-size: 10mm;
     text-align: center;
+    position: relative;
+    right: 60px;
 `;
 
 export const Google = styled.button `
