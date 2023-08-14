@@ -1,4 +1,4 @@
-
+import { global } from "../../globalStyle"
 export const checarSenha = () => {
     const senha = new String(document.getElementById('password').value)
     const imprimeForca = document.getElementById('strongPass')
@@ -20,17 +20,22 @@ export const checarSenha = () => {
 
     if (forca<10) {
         imprimeForca.innerHTML='Muito fraca'
+        imprimeForca.style.color=global.colors.vermelhoSenhaFraca
     }
     if (forca>=10 && forca<20) {
         imprimeForca.innerHTML='Fraca'
+        imprimeForca.style.color=global.colors.vermelhoSenhaFraca
     }
     if (forca>=20 && forca<30) {
         imprimeForca.innerHTML='Regular'
+        imprimeForca.style.color=global.colors.azulSenhaRegular
     }
     if (forca>=30 && forca<40) {
         imprimeForca.innerHTML='Forte'
+        imprimeForca.style.color=global.colors.verdeSenhaForte
     }
     if (forca>=40) {
         imprimeForca.innerHTML='Excelente'
+        imprimeForca.style.color=global.colors.verdeSenhaForte
     }
 }
