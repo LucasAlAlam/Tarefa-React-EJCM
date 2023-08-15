@@ -25,6 +25,12 @@ export const DivFundo = styled.div `
     padding: 15px;
 `;
 
+export const Insert = styled.form `
+    display: flex;
+    flex-direction: column;
+
+`;
+
 export const Acao = styled.h2 `
     color: ${global.colors.branco};
     font-size: 10mm;
@@ -46,10 +52,9 @@ export const Botao = styled.button `
     border: none;
     color: ${global.colors.branco};
     height: 12mm;
-    width: 150%;
+    width: 87%;
     margin: 5mm;
     font-size: 10mm;
     text-align: center;
     position: relative;
-    right: 60px;
 `;
